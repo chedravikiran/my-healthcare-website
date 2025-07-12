@@ -1,0 +1,301 @@
+*{
+    padding: 0%;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+main{
+   color: aliceblue;
+}
+.page-1{
+    position: relative;
+}
+
+.hero{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+video{
+  object-fit: cover;
+    height: 100%;
+   
+    display: block;
+}
+.navbar{
+    z-index: 3;
+    width: 100vw;
+    padding: 10px 50px;
+    color: azure;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: (1.2vw,16px);
+}
+
+.nav-right{
+    display: flex;
+    gap: 20px;
+    
+}
+.nav-right p{
+    margin-top: 13px;
+}
+.navbar .nav-right ul{
+    display: flex;
+    gap: 1.8vw;
+    margin-top: 13px;
+    justify-content: space-evenly;
+}
+.navbar .nav-right ul li a{
+    color: azure;
+    text-decoration: none;
+    font-size: max(0.8vw,13px);
+    
+  
+}
+
+.navbar .nav-right .join-waitlist{
+    display: flex;
+    align-items: center;
+    padding: 5px 30px;
+    padding-right: 5px;
+    background-color: black;
+    border-radius: 27px;
+}
+
+.navbar .nav-right .join-waitlist a{
+    margin-right: 5px;
+}
+
+.navbar .nav-right .join-waitlist .arrows{
+display: flex;
+width: 30px;
+overflow: hidden;
+
+
+}
+.navbar .nav-right .join-waitlist .arrows i{
+    color: black;
+display: flex;
+background-color: white;
+padding: 10px;
+width: 30px;
+border-radius: 50%;
+}
+
+.page-1 .hero-text{
+    margin-left: 5vw;
+    top: max(10vw,100px);
+    color: azure;
+    font-size: max(5vw,60px);
+    font-weight: 100;
+}
+.div-img{
+width: 100vw;
+height: 100vh;
+background-color:rgba(0,0,0,0.2);
+;
+
+position: absolute;
+top: 0px;
+
+padding-top: 50px;
+}
+.content-1{
+    display: flex;
+    gap: 20px;
+    color: azure;
+     margin-top: 30px;
+     margin-left: 50px;
+}
+.content-1 img{
+    width: 48px;
+   
+}
+
+.hero-content{
+    position: absolute;
+    bottom: 5%;
+   
+}
+
+.content-text b{
+    font-size: 1vw;
+   
+}
+
+.content-text p{
+    margin-top: 10px;
+    font-size: 0.9vw;
+    opacity: 0.8;
+}
+
+.hero-content{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    color: azure;
+}
+
+.content-right{
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.content-right h1{
+    font-size: 3vw;
+    font-weight: 300;
+}
+.content-right .join-waitlist{
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    border-radius: 26px;
+}
+
+.content-right .join-waitlist a{
+    padding: 5px 20px;
+    font-size: min(2vw,16px);
+}
+
+.content-right .join-waitlist i{
+    background-color: black;
+    color: azure;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.page-2{
+    display: flex;
+    flex-direction: column;
+    height:fit-content;
+    width: 100vw;
+    background-color:transparent;
+}
+
+.page-2-p{
+    display: flex;
+    align-items: center;
+    height: 150px;
+    margin: 0px 20px;
+}
+.page-2-p img{
+    height: 35px;
+    margin-right: 10px;
+    animation: rotate 4s linear infinite;
+}
+.page-2-p p{
+    font-size: 1vw;
+    letter-spacing: 1px;
+}
+
+.page-2 h1{
+    padding: 40px 10px;
+    font-size: 6vw ;
+}
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}.page-2 h1{
+    font-weight: 100;
+    margin-left: 20px;
+    z-index: 5;
+}
+
+
+.bounding{
+    margin-top: 60px;
+   width: fit-content;
+    overflow: hidden;
+}
+.bounding-element{
+    transform: translatey(100%);
+
+    
+}
+
+.image-container{
+    height: auto;
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+}
+.img-1{
+    position: relative;
+}
+
+.img-1 img{
+    width: 32vw;
+ z-index: 2;
+ background-position: center;
+ background-size: cover;
+border-radius: 10px;
+}
+
+.top{
+    position: absolute;
+    border-bottom: 1px solid azure;
+   
+    top: 0;
+    z-index:3;
+    display: flex;
+    width: 100%;
+    
+}
+
+.left{
+    position: relative;
+    color: azure;
+    width: fit-content;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    border-right: 1px solid white;
+    padding-right: 10px;
+}
+
+.left h1{
+    font-size: 42px;
+    padding: 0;
+    margin-top: 20px;
+ 
+}
+.left p{
+   position: absolute;
+   top: 10px;
+   right: 7px;
+
+}
+.right{
+    flex: 1;
+color: azure;
+display: flex ;
+flex-direction: column;
+padding: 16px 20px;
+}
+.img-1 p{
+   position: absolute;
+   bottom: 10px; 
+   z-index: 3;
+   color: azure;
+}
