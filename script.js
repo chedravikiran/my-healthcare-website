@@ -1,7 +1,4 @@
-const scroll = new LocomotiveScroll({
-    el: document.querySelector('#main'),
-    smooth: true
-});
+
 
 function firstPageAnim(){
     let tl = gsap.timeline();
@@ -21,3 +18,7 @@ function firstPageAnim(){
 }
 
 firstPageAnim();
+const scroll = new LocomotiveScroll({
+    el: document.querySelector('#main'),
+    smooth: true
+});

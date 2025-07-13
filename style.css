@@ -471,6 +471,7 @@ border-radius: 50%;
 .sticky-page{
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px dashed rgba(128, 128, 128, 0.795);
 
     padding: 20px;
 }
@@ -520,4 +521,446 @@ border-radius: 50%;
     opacity: 0.8;
     width: 50%;
 }
+/* page5 css */
 
+.page-5-heading{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.page-5-heading h1{
+    font-size: 4vw;
+    font-weight: 300;
+}
+
+.page-5-heading .join-waitlist-2{
+    font-size: 1.5vw;
+    margin-top: 30px;
+}
+.page-5-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.page-5-content-1{
+    padding-left:20px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   margin-top: 60px;
+    border-right: 1px dashed gray;
+    width: 32vw;
+    height: 800px;
+}
+.page-5-content-1 h1{
+    position: sticky;
+    background-color:rgba(255,255,255);
+    top: 15px;
+    margin-top: 80px;
+    padding: 20px;
+    width: 100%;
+    font-weight: 300;
+}
+
+.page-5-content-1 ul li{
+    list-style: none;
+    font-size: 1vw;
+}
+.hero-img-2{
+    width: 100vw;
+    height: 100vh;
+    z-index: 100000;
+}
+.page-5-hero{
+    margin-top: 100px;
+    width: 100vw;
+    position: relative;
+}
+.page-5-hero img{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    background-position: center;
+}
+.page-5-hero-content{
+    padding: 100px;
+    width: 100%;
+    position: absolute;
+    color: white;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+     animation:animation linear ;
+     animation-timeline: view();
+   animation-range: entry 0% cover 70%;
+}
+
+.page-5-hero-content .hero-content-left h1{
+font-weight: 300;
+font-size: 3vw;
+}
+
+.page-5-hero-content .hero-content-left .tags{
+ display: flex;
+ flex-wrap: wrap;
+ width: 50%;
+}
+
+.page-5-hero-content .hero-content-left .tags p{
+    padding: 10px 10px;
+    border-radius: 23px;
+    background-color: white;
+    opacity: 0.8;
+    color: black;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+.page-5-hero-content .hero-content-right{
+    justify-content: left;
+}
+.page-5-hero-content .hero-content-right h1{
+    font-size: 3.5vw;
+    font-weight: 300;
+    margin-right: 50px;
+    margin-bottom: 30px;
+   
+}
+
+@keyframes animation {
+    from{
+      transform: translate(0,30px);
+      
+    }
+    to{
+       
+       transform: translate(0,0);
+    }
+}
+
+.personal-professional{
+    display: flex;
+    justify-content: space-between ;
+    background-color: #d4d2d0;
+    width: 100%;
+    padding: 23px;
+}
+.personal{
+   background-color: white;
+    padding: 20px;
+    width: 49%;
+    border-radius:10px ;
+}
+
+.professional{
+    background-color: #c5b297;
+    padding: 20px;
+    width: 49%;
+    border-radius:10px ;
+}
+.personal-heading h3{
+    font-size: 2vw;
+    font-weight: 300;
+    padding: 10px;
+}
+.personal-heading p{
+    font-size: 1vw;
+}
+.personal-heading{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 1px dashed gray;
+    padding-bottom: 20px;
+}
+.personal-heading .dot{
+    margin-top: 5px;
+    padding: 10px;
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.personal-content b{
+   font-weight: 500;
+    font-size: 1vw;
+}
+.personal-content p{
+    font-size: 0.8vw;
+    padding: 6px;
+    padding-left: 0;
+}
+.personal-content{
+    padding: 10px;
+    border-bottom:1px dashed gray
+}
+
+
+.video-div video{
+    filter: blur(10px);
+    width: 100%;
+    height: 100%;
+}
+.video-div {
+    border-radius: 10px;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #d4d2d0;
+    animation: videodiv ease-in-out ;
+   animation-timeline: view();
+   animation-range: entry 0% cover 60%;
+}
+@keyframes videodiv {
+    from{
+        scale: 0.9;
+    }
+    to{
+        scale: 1;
+    }
+}
+
+.video-div .video-div-content{
+    position: absolute;
+    width: 100%;
+    opacity: 0.8;
+    top: 0;
+    color: white;
+    padding: 50px;
+    padding-top: 30px;
+}
+
+.video-div .video-div-content h1{
+    font-size: 4.5vw;
+    font-weight: 400;
+}
+.video-div-content h1{
+    width: 100%;
+    padding-bottom: 70px;
+    border-bottom: 1px dashed gray;
+}
+.video-div-content-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 180px;
+    border-bottom:1px dashed gray
+}
+.video-div-content-1 img{
+    margin-top: 20px;
+    height:80px;
+    border:1px solid white;
+    border-radius: 50%;
+
+}
+ .video-div-content-1 h6{
+    font-size: 1.5vw;
+}
+
+.video-div-content-1-right{
+    margin-right: 50px;
+}
+.video-div-content-1-right b{
+font-weight: 500;
+font-size: 1.8vw;
+}
+.video-div-content-1-right ul li{
+    margin-top: 10px;
+    margin-left: 8px;
+    font-size: 1vw;
+}
+
+/* page6 css */
+
+.page-6-main{
+    display: flex;
+    justify-content: space-between;
+    padding:30px;
+}
+.page-6-image-div{
+    width: 50%;
+    
+}
+.page-6-main img{
+    position: sticky;
+    top: 10px;
+    object-fit: cover;
+    width: 100%;
+    height: 770px;
+    border-radius: 10px;
+   
+}
+
+.page-6-main .questions{
+    flex: 1;
+    padding: 10px;
+}
+
+.page-6-main .questions h1{
+    font-size: 4vw;
+    font-weight: 400;
+    border-bottom:1px dashed gray;
+    padding-bottom: 30px;
+}
+
+.page-6-main .questions .question{
+    padding: 10px;
+    display: flex;
+    border-bottom: 1px dashed gray;
+    justify-content: space-between;
+}
+
+.page-6-main .questions .question p{
+    font-size:1.4vw;
+}
+
+.page-6-main .questions .question b{
+    font-size: 30px;
+    opacity: 0.8;
+    font-weight: 100;
+}
+
+.footer-image-div{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+.footer-image-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+   
+}
+
+.footer-image-div .footer-image-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    color: white;
+    padding-left: 50px;
+}
+
+.footer-image-div .footer-image-content h1{
+    font-size: 5vw;
+    font-weight: 500;
+}
+.footer-image-div .footer-image-content p{
+    padding: 20px;
+    font-size: 1vw;
+}
+/* footer css */
+
+footer{
+    background-color: black;
+    width: 100%;
+    padding: 30px;
+    color: white;
+    display: flex;
+    padding: 80px;
+    justify-content: space-between;
+}
+footer h1{
+    font-size: 2vw;
+}
+footer .newsletter h3{
+    font-size: 1.3vw;
+}
+
+footer .newsletter p{
+    margin:8px 0;
+    font-size: 1vw;
+}
+
+footer .newsletter .input{
+    width: 400px;
+}
+footer .newsletter .input input{
+    width: 345px;
+    flex: 1;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid gray;
+    margin: 5px;
+    margin-left: 0;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+footer .newsletter .input button{
+    padding: 12px;
+    border-radius: 50%;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+}
+
+footer .newsletter .input input:hover{
+    background-color: white;
+    color: gray;
+    transition:ease-in-out 0.5s;
+
+}
+footer .newsletter .input button:hover{
+    color: black;
+    background-color: white;
+    transition: ease-in-out 0.5s;
+}
+footer .info a{
+    text-decoration: none;
+    color: white;
+    opacity: 0.8;
+}
+
+footer .info{
+    display: flex;
+    flex-direction: column;
+    gap:60px;
+}
+footer .info .info-1{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .info .info-1 p{
+    font-size:1vw ;
+    opacity: 0.6;
+}
+footer .info .info-1 a{
+    padding: 3px;
+    padding-left: 0;
+    font-size: 1.3vw;
+}
+
+footer .info .info-2 p{
+    font-size:1vw ;
+    opacity: 0.6;
+}
+
+footer .info .info-2 a{
+ padding: 3px;
+    padding-left: 0;
+    font-size: 1.3vw;
+}
+footer .social-media {
+    display: flex;
+    flex-direction: column;
+
+}
+
+footer .social-media p{
+     font-size:1vw ;
+    opacity: 0.6;
+}
+footer .social-media a{
+    text-decoration: none;
+    color: white;
+
+    font-size: 1.3vw;
+
+}
