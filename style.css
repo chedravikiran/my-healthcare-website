@@ -154,6 +154,9 @@ overflow: hidden;
     padding: 20px;
     padding-top: 60px;
 }
+.about-div .social-media p{
+    border: none;
+}
 .about-div .social-media a{
     color:white;
     text-decoration:none;
@@ -394,9 +397,32 @@ font-weight: 100;
 }
 
 .page-2 h1{
-    padding: 40px 10px;
-    font-size: 6vw ;
+   padding: 40px 10px;
+  font-size: 6vw;
+
+  animation-name: typing;
+  /* Duration is ignored for scroll-driven animations */
+  animation-timing-function: steps(40, end);
+  animation-iteration-count: none;
+  animation-fill-mode: both;
+  animation-timeline: view();                 /* Binds animation to view progress */
+  animation-range: cover 0% cover 40%;        /* Defines start/end visibility range */
 }
+
+
+@keyframes typing {
+  0% {
+    transform: translateY(50%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+
 @keyframes rotate {
     0%{
         transform: rotate(0deg);
@@ -409,6 +435,7 @@ font-weight: 100;
     font-weight: 100;
     margin-left: 20px;
     z-index: 5;
+    
 }
 
 
@@ -560,7 +587,15 @@ font-size: 5vw;
     padding-left: 20px;
     font-size: 5vw;
     font-weight: 100;
+    animation-name: typing;
+  /* Duration is ignored for scroll-driven animations */
+  animation-timing-function: steps(40, end);
+  animation-iteration-count: none;
+  animation-fill-mode: both;
+  animation-timeline: view();                 /* Binds animation to view progress */
+  animation-range: cover 0% cover 40%;        /* Defines start/end visibility range */
 }
+
 
 /* page4 css */
 .hands-div{
@@ -596,7 +631,15 @@ font-size: 5vw;
     opacity: 0.8;
     font-weight: 200;
     font-size: 5vw;
+    animation-name: typing;
+  /* Duration is ignored for scroll-driven animations */
+  animation-timing-function: steps(40, end);
+  animation-iteration-count: none;
+  animation-fill-mode: both;
+  animation-timeline: view();                 /* Binds animation to view progress */
+  animation-range: cover 0% cover 40%;        /* Defines start/end visibility range */
 }
+
 
 .page-4-bottom h3{
     font-size: 2.7vw;
@@ -650,6 +693,13 @@ border-radius: 50%;
     font-size: min(7vw,70px);
     font-weight: 400;
     padding: 20px;
+    animation-name: typing;
+  /* Duration is ignored for scroll-driven animations */
+  animation-timing-function: steps(40, end);
+  animation-iteration-count: none;
+  animation-fill-mode: both;
+  animation-timeline: view();                 /* Binds animation to view progress */
+  animation-range: cover 0% cover 40%;        /* Defines start/end visibility range */
 }
 .ipad-div img{
     width: 90%;
@@ -693,7 +743,15 @@ border-radius: 50%;
     
     font-size: 3.8vw;
     font-weight: 300;
+    animation-name: typing;
+  /* Duration is ignored for scroll-driven animations */
+  animation-timing-function: steps(40, end);
+  animation-iteration-count: none;
+  animation-fill-mode: both;
+  animation-timeline: view();                 /* Binds animation to view progress */
+  animation-range: cover 0% cover 40%;        /* Defines start/end visibility range */
 }
+
 #sticky-part{
     margin-top: 60px;
     position: sticky;
@@ -735,7 +793,15 @@ border-radius: 50%;
 .page-5-heading h1{
     font-size: 4vw;
     font-weight: 300;
+    animation-name: typing;
+  /* Duration is ignored for scroll-driven animations */
+  animation-timing-function: steps(40, end);
+  animation-iteration-count: none;
+  animation-fill-mode: both;
+  animation-timeline: view();                 /* Binds animation to view progress */
+  animation-range: cover 0% cover 40%;        /* Defines start/end visibility range */
 }
+
 
 .page-5-heading .join-waitlist-2{
     font-size: 1.5vw;
@@ -828,7 +894,13 @@ font-size: 3vw;
     font-weight: 300;
     margin-right: 50px;
     margin-bottom: 30px;
-   
+    animation-name: typing;
+  /* Duration is ignored for scroll-driven animations */
+  animation-timing-function: steps(40, end);
+  animation-iteration-count: none;
+  animation-fill-mode: both;
+  animation-timeline: view();                 /* Binds animation to view progress */
+  animation-range: cover 0% cover 40%;        /* Defines start/end visibility range */
 }
 
 @keyframes animation {
@@ -938,6 +1010,7 @@ font-size: 3vw;
 .video-div .video-div-content h1{
     font-size: 4.5vw;
     font-weight: 400;
+    
 }
 .video-div-content h1{
     width: 100%;
@@ -1006,6 +1079,7 @@ font-size: 1.8vw;
     font-weight: 400;
     border-bottom:1px dashed gray;
     padding-bottom: 30px;
+    
 }
 
 .page-6-main .questions .question{
@@ -1052,6 +1126,13 @@ font-size: 1.8vw;
 .footer-image-div .footer-image-content h1{
     font-size: 5vw;
     font-weight: 500;
+    animation-name: typing;
+  /* Duration is ignored for scroll-driven animations */
+  animation-timing-function: steps(40, end);
+  animation-iteration-count: none;
+  animation-fill-mode: both;
+  animation-timeline: view();                 /* Binds animation to view progress */
+  animation-range: cover 0% cover 40%;        /* Defines start/end visibility range */
 }
 .footer-image-div .footer-image-content p{
     padding: 20px;
@@ -1189,6 +1270,9 @@ color: white;
     scale: 0.9;
 
 }
+
+
+
 @media (max-width:900px) {
     .bottom-2-content h5{
         font-size: 4vw;
@@ -1286,6 +1370,10 @@ color: white;
    .bottom-2-content{
     width: 50%;
     margin: 0;
+   }
+   .form-section form {
+    width: 100%;
+    margin-left: 0;
    }
    .hands-div{
     flex-direction: column;
