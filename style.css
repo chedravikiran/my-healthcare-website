@@ -206,7 +206,7 @@ padding-top: 50px;
     animation: rotate 4s linear infinite;
 }
 .page-2-p p{
-    font-size: 1vw;
+    font-size: 1.5vw;
     letter-spacing: 1px;
 }
 
@@ -553,6 +553,7 @@ border-radius: 50%;
 }
 .page-5-content-1 h1{
     position: sticky;
+    font-size: 3.5vw;
     background-color:rgba(255,255,255);
     top: 15px;
     margin-top: 80px;
@@ -932,25 +933,35 @@ footer .info .info-1 p{
     opacity: 0.6;
 }
 footer .info .info-1 a{
+    color: gray;
     padding: 3px;
     padding-left: 0;
     font-size: 1.3vw;
 }
-
+footer .info .info-1 a:hover{
+    color: white;
+}
 footer .info .info-2 p{
     font-size:1vw ;
     opacity: 0.6;
 }
 
 footer .info .info-2 a{
+    color: gray;
  padding: 3px;
     padding-left: 0;
     font-size: 1.3vw;
+}
+footer .info .info-2 a:hover{
+    color: white;
 }
 footer .social-media {
     display: flex;
     flex-direction: column;
 
+}
+.menu{
+    display: none;
 }
 
 footer .social-media p{
@@ -959,8 +970,402 @@ footer .social-media p{
 }
 footer .social-media a{
     text-decoration: none;
-    color: white;
-
+    color: gray;
+opacity: 0.9;
     font-size: 1.3vw;
 
+}
+footer .social-media a:hover{
+color: white;
+}
+.join-waitlist:hover{
+    scale: 0.9;
+}.join-waitlist-2:hover{
+    scale: 0.9;
+
+}
+@media (max-width:900px) {
+    .bottom-2-content h5{
+        font-size: 4vw;
+    }
+     .bottom-2-content{
+        margin: 0;
+        width: 50%;
+     }
+      .bottom-2-content p{
+        font-size: 1.8vw;
+      }
+      .personal .personal-heading h3{
+        font-size: 5vw;
+      }
+      .personal .personal-heading p{
+        font-size: 2vw;
+      }
+       .personal .personal-content b{
+        font-size: 1.8vw;
+        font-weight: 550;
+       }
+         .personal .personal-content p{
+            font-size: 1.5vw;
+            opacity: 0.8;
+         }
+
+
+           .professional .personal-heading h3{
+        font-size: 5vw;
+      }
+      .professional .personal-heading p{
+        font-size: 2vw;
+      }
+       .professional .personal-content b{
+        font-size: 1.8vw;
+        font-weight: 550;
+       }
+         .professional .personal-content p{
+            font-size: 1.5vw;
+            opacity: 0.8;
+         }
+         .page-6-main{
+            flex-direction: column;
+         }
+         .page-6-main .page-6-image-div{
+            width: 93vw;
+            height: 369px;
+         }
+
+          .page-6-main .page-6-image-div img{
+            height: 100%;
+          }
+
+}
+
+
+
+
+@media (max-width:770px) {
+    
+    .hero-content{
+        flex-direction: column;
+       
+    }
+    .hero-content .content-right{
+        gap: 30px;
+        padding-top: 40px;
+        margin-left: 60px;
+    }
+     .hero-content .content-right h1{
+        font-size:4vw ;
+     }
+     .nav-right{
+        display: none;
+
+     }
+     .menu{
+        display: block;
+        font-size: 3vw;
+     }
+     .navbar{
+        padding-top: 30px;
+     }
+
+     .page-2-p p{
+        font-size: 2vw;
+     }
+   .img-1 img{
+    width: 50vw;
+   }
+   .page-2-bottom h1{
+    font-size: 6vw;
+   }
+   .bottom-2-content{
+    width: 50%;
+    margin: 0;
+   }
+   .hands-div{
+    flex-direction: column;
+    height: auto;
+   }
+   .hands-div .image-div{
+    width: 100vw;
+    height: 80vh;
+   }
+   .hands-div .image-div img{
+    width: 100%;
+    height: 100%;
+   }
+   .page-4{
+    height: auto;
+   }
+   .page-4-text{
+   height: 800px;
+   gap: 200px;
+   }
+   .page-4-text h1{
+    font-size: 9vw;
+   }
+   .page-4-bottom h3{
+    font-size: 5.4vw;
+    margin-bottom: 30px;
+
+   }
+   .page-4-bottom .join-waitlist-2{
+    width: 250px;
+    justify-content: space-between;
+
+   }
+   .page-4-bottom .join-waitlist-2 a{
+    font-size: 2.5vw;
+   }
+   .ipad-div img{
+    padding: 0;
+    margin-top: 50px;
+   }
+   .ipad-div p{
+    font-size: 2.5vw;
+   }
+   .sticky-page{ 
+    padding: 30px 50px;
+    flex-direction: column;
+   }
+   .sticky-part{
+    position: static;
+    width: 100%;
+   }
+   .sticky-part-2{
+    width: 100%;
+    padding: 0;
+   }
+   #sticky-part h3{
+    padding: 0;
+    margin: 0;
+    font-size: 7vw;
+   }
+    #sticky-part p{
+        padding: 0;
+        margin: 0;
+        margin-top: 10px;
+        font-size: 3vw;
+    }
+.sticky-text h6{
+    font-size: 3vw;
+    font-weight: 300;
+}
+.sticky-text p{
+    font-size: 2.8vw;
+    padding: 0;
+    width: 70%;
+}
+.sticky-content{
+    padding: 0;
+}
+.page-5-heading h1{
+    font-size: 6.5vw;
+}
+.page-5-heading .join-waitlist-2{
+    width: 250px;
+    justify-content: space-between;
+}
+.page-5-heading .join-waitlist-2 a{
+    font-size: 2vw;
+}
+.page-5-content{
+    margin: 0;
+}
+.page-5-content-1{
+    width: 48%;
+}
+.page-5-content h1{
+    font-size: 4vw;
+}
+.page-5-content ul li{
+font-size: 2.3vw;
+}
+.page-5-hero img{
+    height: 100vh;
+}
+.page-5-hero-content{
+    display: flex;
+    flex-direction: column;
+    gap:300px;
+    justify-content: space-evenly;
+}
+.page-5-hero-content .hero-content-left{
+   width: 100%;
+   
+}
+.page-5-hero-content .hero-content-left h1{
+    font-size: 6vw;
+}
+.page-5-hero-content .hero-content-right h1{
+    font-size: 7vw;
+
+}
+.page-5-hero-content .hero-content-right .join-waitlist-2{
+    width: 250px;
+    justify-content: space-between;
+
+}
+.page-5-hero-content .hero-content-right .join-waitlist-2 a{
+    font-size: 4vw;
+}
+.personal-professional{
+    flex-direction: column;
+}
+.personal{
+    width: 100%;
+}
+.professional{
+    width: 100%;
+}
+
+ .personal .personal-heading h3{
+        font-size: 8vw;
+      }
+      .personal .personal-heading p{
+        font-size: 3vw;
+      }
+       .personal .personal-content b{
+        font-size: 2.5vw;
+        font-weight: 550;
+       }
+         .personal .personal-content p{
+            font-size: 2vw;
+            opacity: 0.8;
+         }
+
+
+           .professional .personal-heading h3{
+        font-size: 8vw;
+      }
+      .professional .personal-heading p{
+        font-size: 3vw;
+      }
+       .professional .personal-content b{
+        font-size: 2.5vw;
+        font-weight: 550;
+       }
+         .professional .personal-content p{
+            font-size: 2vw;
+            opacity: 0.8;
+         }
+         .video-div-content-1 h6{
+            font-size: 3vw;
+         }
+         .video-div-content-1-right b{
+            font-size: 3vw;
+         }
+
+         .video-div-content-1-right ul li{
+            font-size: 2vw;
+         }
+         .video-div-content-1 img{
+            height: 50px;
+         }
+         .video-div-content-1-right{
+            justify-content: end;
+         }
+
+        .page-6-main .questions .question p{
+            font-size: 2.7vw;
+         }
+         .footer-image-div .footer-image-content h1{
+            font-size: 9vw;
+         }
+          .footer-image-div .footer-image-content p{
+            font-size: 3vw;
+          }
+           .footer-image-div .footer-image-content .join-waitlist-2{
+            width: 250px;
+            justify-content: space-between;
+           }
+.join-waitlist-2 a{
+                font-size: 2vw;
+            }
+            footer{
+                flex-direction: column;
+                padding: 80px 20px;
+            }
+            footer .info{
+                flex-direction: row;
+                padding: 30px;
+                padding-left: 0;
+            }
+            footer h1{
+               font-size: 4vw;
+            }
+            footer .newsletter h3{
+                font-size: 3vw;
+                font-weight: 300;
+            }
+            footer .newsletter p{
+                font-size: 2vw;
+            }
+            footer .info .info-1 p{
+                font-size: 3vw;
+
+            }
+            footer .info .info-1 a{
+                font-size: 2.5vw
+            }
+
+            footer .info .info-2 p{
+                font-size: 3vw;
+
+            }
+            footer .info .info-2 a{
+                font-size: 2.5vw
+            }
+
+            footer .social-media p{
+                font-size: 3vw;
+            }
+            footer .social-media a{
+                font-size: 2.5vw;
+            }
+
+}
+
+@media (max-width:500px) {
+    .hero-content .content-left{
+        display: none;
+    }
+     .hero-content .content-right h1{
+        font-size: 7vw;
+        margin-bottom: 30px;
+     }
+     .hero-content .content-right .join-waitlist{
+        justify-content: space-between;
+        width: 100%;
+     }
+      .img-1 img{
+    width: 80vw;
+   }
+   .page-2-bottom h1{
+    font-size: 8vw;
+   }
+    .bottom-2-content{
+    width: 100%;
+    margin: 0;
+   }
+.sticky-page{
+    padding: 0;
+    margin: 0;
+    margin-left: 20px;
+}
+.sticky-content{
+    margin-top: 20px;
+}
+.sticky-part-2{
+    margin-bottom: 50px;
+}
+.page-5-hero-content{
+    padding: 20px;
+}
+    .join-waitlist-2 a{
+    font-size: 3vw;
+    }
+footer .newsletter .input input{
+     width: 200px;
+   }
+   
 }
